@@ -1,7 +1,6 @@
 {
-  "name": "tunis",
+  "name": "personal-portfolio",
   "version": "2.2.1",
-  "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@testing-library/jest-dom": "^5.11.4",
@@ -22,6 +21,7 @@
     "slick-carousel": "^1.8.1",
     "web-vitals": "^1.0.1"
   },
+  
   "scripts": {
     "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
@@ -47,6 +47,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.1.1",
     "sass": "^1.52.2"
   }
 }
